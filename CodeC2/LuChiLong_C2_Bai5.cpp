@@ -73,6 +73,7 @@ int main()
 				cout<<"nhap gia tri x=";
 				cin>>x;
 				i= Push(a,space,x);
+				break;
 			case 3:
 				i=Pop(a,space,x);
 				cout<<"Phan tu lay ra tu STACK la x="<<x<<endl;
