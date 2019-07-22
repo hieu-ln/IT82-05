@@ -80,18 +80,18 @@ int main()
 				Pro_stack(a,space);
 				break;
 			case 4:
-				i= SFull(a,space);
-				if(i == 0)
-					cout<<"stack chua day"<<x<<endl;
-				else
-					cout<<"stack da day"<<endl;
-				break;
-			case 5:
 				i =SEmpty(a,space);
 				if(i == 0)
 					cout<<"stack khong rong"<<x<<endl;
 				else
 					cout<<"stack rong"<<endl;
+				break;
+			case 5:
+				i= SFull(a,space);
+				if(i == 0)
+					cout<<"stack chua day"<<x<<endl;
+				else
+					cout<<"stack da day"<<endl;
 				break;
 			case 6:
 				cout<<"STACK hien tai la: ";
